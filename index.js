@@ -62,4 +62,108 @@ alert(`${brinchi} ${uchunchi} ${ikkinchi}`);*/
    let soat=(N-N%3600)/3600;
    let minut=(N%3600-N%60)/60;
    let sekund=N%60;
-   alert(`${soat} Soat ${minut} Minut ${sekund} Sekund utgan`);*/
+   alert(`${soat} Soat ${minut} Minut ${sekund} Sekund utgan`);
+
+  
+      for 1 - masala
+          let k = +prompt("k sinini kiriting");
+          let n = +prompt("n sononi kiriting");
+          for ( i = 0; i < n; i++){
+            console.log(k);
+          }
+
+        for 2 - masala
+        
+        let a = +prompt("A Sono kiriting");
+        let b = +prompt("B Soni kiriting");
+
+        for ( i = a; i <= b; i++){
+            console.log(i);
+        }
+
+
+        for 3 - masala
+        
+         let a = +prompt("A Sono kiriting");
+         let b = +prompt("B Soni kiriting");
+        
+         for ( i = b-1; i > a; i--){
+
+            console.log(i);
+         }
+
+        //for 4 -masala
+          
+        let narx = 3000;
+        
+        for( i = 1; i < 10 ; i++){
+           
+            console.log(`${i}kilogram konfetni narxi ${i*narx} ga teng`);
+        }
+
+        for 5 - masala
+        let narx = 3000;
+        
+        for( i = 1; i <= 10 ; i++){
+           
+            console.log(`${i/10} kilogram konfetni narxi ${(i*narx)/10} ga teng`);
+        }
+        
+         for 6 - masala
+      let narx = 3000;
+        
+        for( i = 1; i <= 2 ; i = i+0.2){
+           
+           let kg = i.toFixed(1);
+           console.log(`${kg} kilo konfetni narxi ga teng ${kg * narx} `); 
+        }
+
+         for 7 - masala
+         let  sum = 0;
+         let a = 1;
+         let b = 9;
+         if ( a < b){
+             for ( let i = b; i > a; i-- ){
+          sum += i;
+        }
+        console.log('sum=' + sum);
+         }
+    
+        for - 8 masala
+        let  sum = 0;
+        let a = 3;
+        let b = 5;
+        if (a < b){
+            for ( let i = b; i > a; i-- ){
+            sum *= i;
+            }
+            console.log('sum=' + sum);
+        }
+
+        for 9 - masala
+        let  sum = 0;
+        let a = 4;
+        let b = 10;
+        if ( a < b) {
+            for (  i = a; i < b; i++ ){
+         sum =+ i * i;
+        }
+        console.log('sum=' + sum); 
+        }
+
+        for 10 - masala
+       
+        let n = 5;
+        let sum = 0;
+        if ( n > 0) {
+
+         for (i = 1; i <= n; i++) {
+            sum += i;
+
+            
+         }
+         console.log(sum);
+
+        }*/
+        
+
